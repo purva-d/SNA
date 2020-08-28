@@ -5,4 +5,8 @@ ng<-graph.formula(Garth-+Angela,Bill-+Elena,
                   Carol++Bill,Dan++Bill,
                   Elena-+Daphne,Daphne++Garth)
 plot(ng)
+##A network as a matrix
+get.adjacency(ng)
 
+##A network as an edge list
+E(ng)
